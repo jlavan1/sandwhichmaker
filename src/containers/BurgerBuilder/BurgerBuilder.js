@@ -6,9 +6,12 @@ import Aux from '../../hoc/Aux'
 
 class BurgerBuilder extends Component {
     render() {
-        <Aux>
-            <div>BurgerBuilder</div>
-        </Aux>
+        return (
+            <Aux>
+                <div>Burger</div>
+                <div>BuildControls</div>
+            </Aux>
+        );
     }
 }
 

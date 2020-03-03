@@ -1,13 +1,14 @@
 import React, { Component} from 'react';
 import './App.css';
 import Layout from './components/Layout/Layout'
+import BurgerBUilder from './containers/BurgerBuilder/BurgerBuilder'
 
 
 function App() {
   return (
     <div className="App">
       <Layout>
-        <p>Test</p>
+        <BurgerBUilder/>
 
       </Layout>
       
